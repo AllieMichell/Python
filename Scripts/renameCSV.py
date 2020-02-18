@@ -3,13 +3,13 @@
 import os
 import sys
 import openpyxl
-from xlsx2csv import Xlsx2csv
+from xlsx2csv import Xlsx2csv 
 
 """
 NOTA EN LA VARIABLE DONDE DICE directory PONES LA RUTA EN DONDE SE ENCUENTRAN LOS 
 EXCELES 
 """
-directory = 'C:/Users/user/Documents/Projects/Python/Files'
+directory = 'C:/Users/allie/Documents/Projects/Python/Files'
 def convertXLSXtoCSV(directory):
     """
     ES UNA FUNCIÓN QUE SIRVE PARA CONVERTIR EXCELES EN ARCHIVOS CSV
